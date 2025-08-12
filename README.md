@@ -22,8 +22,25 @@ If you use these data, please **cite the paper** (see [How to cite](#how-to-cite
 ```
 Datasets/
   Cuprite/
-    -
-    -
+    - Cuprite_GT_nEnd12.mat
+    - Cuprite_data_R188.mat
+  Jasper/
+    - jasperRidge2_R198.mat
+    - Jasper_GT.mat
+    - end4_Materials.fig
+    - end4_Abundance.fig
+  Samson/
+    - Samson.mat
+    - Samson_GT.mat
+    - end3_Abundances.fig
+    - end3_Materials.fig
+  Urban/
+    - Urban.mat
+    - end4_groundTruth.mat
+    - end5_groundTruth.mat
+    - end6_groundTruth.mat
+    - Figures of endmembers and abundance maps
+
 README.md
 ```
 
@@ -79,33 +96,6 @@ Below we summarize **typical** configurations used in HU literature. Exact shape
 
 ---
 
-## Loading examples
-
-```
-
-### MATLAB
-```matlab
-load('data/benchmark/samson/samson_cube.mat'); % loads variable X (B×P or H×W×B)
-E = readmatrix('data/benchmark/samson/endmembers_gt.csv');     % K×B
-A = load('data/benchmark/samson/abundances_gt.mat').A;         % K×H×W
-wl = readmatrix('data/benchmark/samson/wavelengths_nm.csv');   % B
-```
-
----
-
-## Evaluation metrics (for reproducibility)
-
-> We provide ground truths so that third parties can evaluate their methods consistently.
-
-- **Spectral Angle Distance (SAD)** for endmembers (lower is better):  
-  $$ \operatorname{SAD}(e,\hat e) = \cos^{-1} \left( \frac{ e^{\top} \hat e }{ \lVert e \rVert_2 \, \lVert \hat e \rVert_2 } \right) $$
-
-- **RMSE** for abundances (lower is better):  
-  $$ \operatorname{RMSE}(A,\hat A) = \sqrt{\frac{1}{KHW} \sum_{k,h,w} (A_{k,h,w} - \hat A_{k,h,w})^2 } $$
-
-> Exact protocols (band selection, normalization, K) are described per dataset in the subfolder `README.md` files.
-
----
 
 ## Licensing & usage
 
@@ -127,17 +117,22 @@ If this repository or the provided ground truths/metadata are useful to your wor
 @article{Settembre2025,
   author  = {Settembre, Gaetano and Esposito, Flavia and Del Buono, Nicoletta},
   title   = {Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods},
-  
+  journal = {Advanced Modeling and Simulation in Engineering Sciences},
+  volume = {},
+  publisher = {Springer Science and Business Media LLC},
+  ISSN = {},
+  DOI = {},
+  url = {},
   year    = {2025},
+  month = 
 }
 ```
-
 
 ---
 
 ## Acknowledgements
 
-We acknowledge the providers of benchmark datasets widely used in HU research and PRISMA data courtesy of the Italian Space Agency (ASI). We also thank all collaborators acknowledged in the manuscript.
+We acknowledge the providers of benchmark datasets widely used in HU research and PRISMA data courtesy of the Italian Space Agency (ASI) and Planetek Italia S.r.l. We also thank all collaborators acknowledged in the manuscript.
 
 ---
 

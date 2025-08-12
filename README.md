@@ -109,7 +109,7 @@ wl = readmatrix('data/benchmark/samson/wavelengths_nm.csv');   % B
 
 ## Licensing & usage
 
-- **Benchmark data** (Samson, Urban, Jasper Ridge) are provided for **research and educational use**; please respect the original dataset terms where applicable.
+- **Benchmark data** (Cuprite, Samson, Urban, Jasper Ridge) are provided for **research and educational use**; please respect the original dataset terms where applicable.
 - **PRISMA imagery** is **not redistributed** here due to licensing; this repo includes only derived metadata and expert-derived reference endmembers. For access to raw imagery, please contact the corresponding author listed in the manuscript or the data provider.
 
 A repository-level `LICENSE` file is included. If you need a different license, please open an issue.
@@ -124,31 +124,14 @@ If this repository or the provided ground truths/metadata are useful to your wor
 *Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods*. Manuscript, 2025.
 
 ```bibtex
-@misc{Settembre2025SubspaceHU,
+@article{Settembre2025,
   author  = {Settembre, Gaetano and Esposito, Flavia and Del Buono, Nicoletta},
   title   = {Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods},
-  note    = {Datasets and ground truths repository},
+  
   year    = {2025},
-  howpublished = {GitHub repository}
 }
 ```
 
-Optionally, add a `CITATION.cff` file to enable one-click citation on GitHub.
-
----
-
-## Git LFS (recommended)
-
-For large `.npy` / `.mat` files, enable **Git LFS**:
-
-```bash
-git lfs install
-git lfs track "*.npy" "*.mat" "*.h5"
-git add .gitattributes
-git add data/
-git commit -m "Add datasets with Git LFS"
-git push
-```
 
 ---
 

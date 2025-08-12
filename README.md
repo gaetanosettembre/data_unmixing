@@ -63,7 +63,7 @@ Below we summarize **typical** configurations used in HU literature. Exact shape
 - **Dims:** `307 × 307 × 162`
 - **Materials (K):** 4 ("#1 Asphalt", "#2 Grass", "#3 Tree" and "#4 Roof")
 
-- ### Urban 5 (benchmark)
+### Urban 5 (benchmark)
 - **Dims:** `307 × 307 × 162`
 - **Materials (K):** 5 ("#1 Asphalt", "#2 Grass", "#3 Tree", "#4 Roof" and "#5 Dirt")
   

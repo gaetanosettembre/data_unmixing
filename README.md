@@ -115,16 +115,17 @@ If this repository or the provided ground truths/metadata are useful to your wor
 
 ```bibtex
 @article{Settembre2025,
-  author  = {Settembre, Gaetano and Esposito, Flavia and Del Buono, Nicoletta},
-  title   = {Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods},
+  title = {Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods},
+  volume = {12},
+  ISSN = {2213-7467},
+  url = {http://dx.doi.org/10.1186/s40323-025-00313-6},
+  DOI = {10.1186/s40323-025-00313-6},
+  number = {1},
   journal = {Advanced Modeling and Simulation in Engineering Sciences},
-  volume = {},
   publisher = {Springer Science and Business Media LLC},
-  ISSN = {},
-  DOI = {},
-  url = {},
-  year    = {2025},
-  month = 
+  author = {Settembre,  Gaetano and Esposito,  Flavia and Del Buono,  Nicoletta},
+  year = {2025},
+  month = oct 
 }
 ```
 

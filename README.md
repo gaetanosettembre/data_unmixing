@@ -111,7 +111,7 @@ A repository-level `LICENSE` file is included. If you need a different license, 
 If this repository or the provided ground truths/metadata are useful to your work, please cite:
 
 **Gaetano Settembre, Flavia Esposito, Nicoletta Del Buono**.  
-*Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods*. Manuscript, 2025.
+*Advancing blind hyperspectral unmixing in remote sensing: comparing deep-inspired subspace learning methods*. Manuscript. Advanced Modeling and Simulation in Engineering Sciences 12, 30 (2025). https://doi.org/10.1186/s40323-025-00313-6.
 
 ```bibtex
 @article{Settembre2025,
